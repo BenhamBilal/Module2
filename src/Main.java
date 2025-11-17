@@ -94,6 +94,7 @@ public class Main {
         for(int i = 0 ; i < getallen.length ; i++){
             System.out.println(getallen[i]);
         }
+        //
 
 //        for(int getal : getallen){
 //            System.out.println(getal);
