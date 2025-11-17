@@ -143,13 +143,24 @@ public class Main {
 
 //        H1: Afsprakenkalender
 //        Start met het maken van een array waar je 5 datums kan in bijhouden. Vervolgens ga je deze opvullen met fictieve doktersafspraken. Voor het eerste element in de lijst neem je de datum vandaag. Elk volgend element is 15 dagen verder.
-        LocalDate[] afspraakDatums = new LocalDate[5];
-        afspraakDatums[0] = LocalDate.now();
-        System.out.println(Arrays.toString(afspraakDatums));
-        for(int i = 1; i < afspraakDatums.length;i++){
-             afspraakDatums[i] = afspraakDatums[i-1].plusDays(15);
-        }
-        System.out.println(Arrays.toString(afspraakDatums));
+//        LocalDate[] afspraakDatums = new LocalDate[5];
+//        afspraakDatums[0] = LocalDate.now();
+//        System.out.println(Arrays.toString(afspraakDatums));
+//        for(int i = 1; i < afspraakDatums.length;i++){
+//             afspraakDatums[i] = afspraakDatums[i-1].plusDays(15);
+//        }
+//        System.out.println(Arrays.toString(afspraakDatums));
+
+//        Module 3 !
+//
+//        E1: Een eenvoudige klasse
+//        Maak een klasse Cirkel die als gegevens de straal van de cirkel en de kleur bevat. Zorg voor een aantal constructoren zodat je een Cirkel kan aanmaken zonder parameters, met slechts één          argument (straal, kleur) of met beide parameters (straal en kleur). Tenzij anders ingegeven is de straal 0 en de kleur wit. Maak (uiteraard) ook getters en setters. Zorg tenslotte voor           de volgende extra methoden:
+//
+//        print() om de cirkel (straal en kleur) af te printen.
+//        geefOmtrek() : 2 * pi * r , met r als straal
+//        geefOppervlakte() : pi * r * r
+//        Voor de waarde van pi kan je
+
 
 
     }
