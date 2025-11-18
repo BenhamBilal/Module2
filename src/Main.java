@@ -55,10 +55,10 @@ public class Main {
 //        DateTimeFormatter myFormatDateTime = DateTimeFormatter.ofPattern("dd-MMM-yyyy HH:mm:ss");  /* secondly have to set-up your patterns  using "DateTimeFormatter.ofPattern( your patterns in "" )" */
 //
 //        /* Finally in a String variable put your current DateTime ".format(Date Time pattern)" */
-        LocalDate datum = LocalDate.now();
-        DateTimeFormatter formatPatternTime = DateTimeFormatter.ofPattern("dd-MMM-yyyy");
-        String formattedDate = datum.format(formatPatternTime);
-        System.out.println(formattedDate);
+//        LocalDate datum = LocalDate.now();
+//        DateTimeFormatter formatPatternTime = DateTimeFormatter.ofPattern("dd-MMM-yyyy");
+//        String formattedDate = datum.format(formatPatternTime);
+//        System.out.println(formattedDate);
 //
 //        String formateDate = myDate.format(myFormatDateTime);
 //        DateTimeFormatter myFormatDate = DateTimeFormatter.ofPattern("dd-MMM-yyyy");
@@ -161,7 +161,40 @@ public class Main {
 //        geefOppervlakte() : pi * r * r
 //        Voor de waarde van pi kan je
 
+//        Cirkel cirkel1 = new Cirkel();
+//        cirkel1.setKleur("blauw");
+//        cirkel1.print();
 
+//        M1:
+//        Een iets minder eenvoudige klasse "
+//        Maak een klasse Adres.Een object van de klasse kan de adresgegevens van een persoon bijhouden.Een adres
+//        bevat minstens de volgende gegevens:
+//
+//        straatnaam
+//        huisnummer(enkel cijfers)
+//        bus
+//        postcode(exact 4cijfers)
+//        woonplaats
+//        Denk zelf na over de meest geschikte types om bv.tekst of getallen bij te houden.
+//        Zorg er voor dat je zeker een constructor hebt waar je alles aan kan meegeven.Zorg ook voor getters en setters.
+//        Voeg ook nog een functie toe waarmee je alle gegevens in de console kan afdrukken.Als uitdaging voorzie je
+//        ook nog een controle bij het invoeren van een postcode, dit moet uit exact 4 cijfers bestaan en anders
+//        vervang je de invoer door 9999.
+
+//        Adres adres1 = new Adres("Bergensesteenweg",493,2, 1070,"Anderlecht");
+//        System.out.println(adres1.toString());
+//
+//
+//        H1:
+//        Klasse Auto
+//        Maak een klasse Auto.Een auto heeft een kilometerteller, een brandstoftank met een inhoud in liter en een verbruik(aantal liter per 100km).Gebruik voor deze gegevens een double als               datatype.
+//        Voorzie minstens twee constructors, één die toelaat aan alle gegevens een beginwaarde te geven en één die werkt met een aantal default
+//        waarden(nieuwe auto, lege tank).Je hoeft geen bijkomende controles uit te voeren.Je mag er van uitgaan dat de gebruiker altijd realistische waarden gebruikt.
+//
+//        Voorzie een methode om de tank bij te vullen(altijd tot ze vol is).Voorzie een methode om een gegeven aantal km te rijden.In dit geval telt de kilometerteller altijd vooruit (ook alsje           een negatief getal ingeeft).Er wordt
+//        steeds brandstof verbruikt.Hou er rekening mee dat er mogelijk te weinig brandstof kan zijn om de volledige afstand te rijden.In dat geval wordt er gereden tot de tank leeg is.Eens klaar         geeft de methode het aantal gereden km als returnwaarde.
+//
+//        Voorzie ook een methode om alle relevante gegevens van een Auto object af te drukken.
 
     }
 }
